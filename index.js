@@ -7,7 +7,7 @@ import hotelsRoute from "./routes/hotels.js";
 import roomsRoute from "./routes/rooms.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
-import corsOptions from './config/corsConfig'
+import corsOptions from './config/corsConfig.js'
 
 const app = express();
 dotenv.config();
